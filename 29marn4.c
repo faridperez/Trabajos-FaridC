@@ -22,7 +22,7 @@ int main()
         printf("r1b:%d\n", resultado2);
     }
     {
-        int C,B, resultado3;
+        int C;
         C=124;
         B=457;
         A=788;
