@@ -24,4 +24,5 @@ main ()
     printf ("%i valor de la variable 'a'\n",a);
     printf ("%i valor de la variable 'b'\n",b);
     printf ("%i valor de la variable 'c'\n",c);
+    return 0;
 }
