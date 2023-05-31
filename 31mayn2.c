@@ -2,7 +2,7 @@
 31 de mayo de 2023
 programa n2
 
-asigna valores a variables e imprime todos*/
+operador de asignacion = (igual)*/
 
 #include <stdio.h>
 int
