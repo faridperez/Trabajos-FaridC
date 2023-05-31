@@ -5,8 +5,7 @@ programa n5
 operadores de incremento 2*/
 
 #include <stdio.h>
-int
-main ()
+int main ()
 {
     int n=5, t;
     t=++n * --n;
