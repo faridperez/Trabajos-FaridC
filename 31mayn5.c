@@ -2,7 +2,7 @@
 31 de mayo de 2023
 programa n5
 
-*/
+operadores de incremento 2*/
 
 #include <stdio.h>
 int
