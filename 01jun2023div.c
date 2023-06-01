@@ -1,3 +1,9 @@
+/*farid yael perez de gabriel
+
+01 junio de 2023
+
+divisor o nop*/
+
 #include <stdio.h>
 
 int main()
