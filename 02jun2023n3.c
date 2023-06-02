@@ -9,17 +9,15 @@ farid yael perez de gabriel
 int main()
 {
     int dividendo, divisor, residuo, cociente;
-    printf("escriba el primer numero: \n");
+    puts("escriba el primer numero:");
     scanf("%d", &dividendo);
-    printf("escriba el segundo numero: \n");
+    puts("escriba el segundo numero:");
     scanf("%d", &divisor);
     residuo=dividendo%divisor; cociente=dividendo/divisor;
     if(residuo!=0){
-        printf("el numero %d NO es divisible entre %d\n", dividendo, divisor);
+        puts("el numero 1 NO es divisible entre el 2");
     } else{
-        printf("el numero %d SI es divisible entre %d\n\n", dividendo, divisor);
-        printf("dividendo: %d\ndivisor: %d\ncociente: : %d\nresiduo : %d\n", dividendo, divisor, cociente, residuo);
-        printf("%d / %d = %i", dividendo,divisor, cociente);
+        puts("el numero 1 SI es divisible entre el 2");
     }
     return 0;
 }
