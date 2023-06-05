@@ -10,9 +10,13 @@ int main()
     scanf("%c", &car);
     if ((car=='a')||(car=='A')){
         printf("%c es una vocal\n", car);
-    } else if ((car=='b')||(car=='A')){
+    } else if ((car=='e')||(car=='E')){
         printf("%c es una vocal\n", car);
-    } else if ((car=='c')||(car=='C')){
+    } else if ((car=='i')||(car=='I')){
+        printf("%c es una vocal\n", car);
+    } else if ((car=='o')||(car=='O')){
+        printf("%c es una vocal\n", car);
+    } else if ((car=='u')||(car=='U')){
         printf("%c es una vocal\n", car);
     }
     return 0;
