@@ -1,5 +1,7 @@
 #include <stdio.h> 
-  
+ /*
+Farid Yael Pérez De Gabriel
+*/
  int main() 
  { 
     int contador = 0; //inicializa la variable
