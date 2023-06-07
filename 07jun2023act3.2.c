@@ -1,5 +1,11 @@
 #include <stdio.h>
+/*
+farid yael perez de gabriel
 
+07/jun/2023
+
+actividad 3.2
+*/
 int main()
 {
     char c;
