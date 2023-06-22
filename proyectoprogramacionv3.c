@@ -17,12 +17,14 @@ struct hospitalplata{
     int edad, cuarto, medicamentos, horamedicamento[10]; 
     float peso, altura;
     int bajaoalta;
+    float imc;
  }; 
  int main() 
  { 
     struct hospitalplata datos[max]; 
     int npaciente=0, pacientev; 
-    int opcion; 
+    int opcion;
+    int cuarto0;
     char meridiano[3];
     srand(time(NULL));
     int hora = (rand() % 24)+1;
@@ -52,11 +54,12 @@ struct hospitalplata{
             for(int j=0; j<datos[npaciente].medicamentos; j++){ 
                 printf("Intervalo de horas entre cada dosis del medicamento %d: ", j+1); 
                 scanf("%d", &datos[npaciente].horamedicamento[j]); 
-            } 
-            npaciente++; 
+            }
+            npaciente++;
+            int cuarto0 = (rand() % 50)+1;
+            datos[npaciente].cuarto=cuarto0;
             printf("Numero de paciente asignado: N.%d\n", npaciente);
-            printf("Numero de cuarto asignado: N.%d\n", npaciente); 
-            datos[npaciente].cuarto=npaciente; 
+            printf("Numero de cuarto asignado: N.%d\n", datos[npaciente].cuarto); 
             printf("\nRegistro completado\n"); 
             } else { 
                 printf("No se pueden registrar mas pacientes\n"); 
