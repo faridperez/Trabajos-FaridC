@@ -57,7 +57,7 @@ struct hospitalplata{
             }
             int cuarto0 = (rand() % 50)+1;
             datos[npaciente].imc=((datos[npaciente].peso)/((datos[npaciente].altura)*(datos[npaciente].altura)));
-            datos[npaciente+1].cuarto=cuarto0;
+            datos[npaciente].cuarto=cuarto0;
             npaciente++;
             printf("Numero de paciente asignado: N.%d\n", npaciente);
             printf("Numero de cuarto asignado: N.%d\n", datos[npaciente-1].cuarto); 
@@ -81,7 +81,7 @@ struct hospitalplata{
             printf("\n***REGISTRO DEL PACIENTE %d***\n", pacientev); 
             printf("Nombre: %s\n", datos[pacientev-1].nombre); 
             printf("Sexo: %s\n", datos[pacientev-1].sexo); 
-            printf("Numero de habitacion: N.%d\n", datos[pacientev].cuarto); 
+            printf("Numero de habitacion: N.%d\n", datos[pacientev-1].cuarto); 
             printf("Edad: %i\n", datos[pacientev-1].edad); 
             printf("Peso: %.2f\n", datos[pacientev-1].peso); 
             printf("Altura: %.2f\n", datos[pacientev-1].altura);
